@@ -1,11 +1,13 @@
 # Vecty Router
 
+<span style='color: red;'><b>This is forked from http://github.com/marwan-at-work/vecty-router to update the Go's version and change the import link</b></span> 
+<br>
 A declarative client-side router for [Vecty](https://www.github.com/hexops/vecty) applications. 
 Similar to [react-router v4](https://github.com/ReactTraining/react-router)
 
 ### Installation
 
-`go get marwan.io/vecty-router`
+`go get github.com/rm4n0s/vecty-router`
 
 ### Usage
 
@@ -18,7 +20,7 @@ package components
 import (
 	"github.com/hexops/vecty"
 	"github.com/hexops/vecty/elem"
-	"marwan.io/vecty-router"
+	"github.com/rm4n0s/vecty-router"
 )
 
 // Body renders the <body> tag

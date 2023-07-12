@@ -1,3 +1,9 @@
+//go:build js
+// +build js
+
+// install chromium
+// go install github.com/agnivade/wasmbrowsertest@latest
+// GOOS=js GOARCH=wasm go test -exec="$GOPATH/bin/wasmbrowsertest"
 package router
 
 import "testing"
